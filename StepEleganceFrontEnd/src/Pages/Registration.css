@@ -1,0 +1,217 @@
+  .registrationbg {
+    display: flex;
+    background-image: url('../assets/registrationbg.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mainbox {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    width: 490px;
+    height: 560px;
+    border: #333;
+  }
+
+  .header h2 {
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #333;
+    font-size: 30px;
+  }
+
+  .below {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* width: 759px; */
+    height: 470px;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  form .row1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 340px;
+  }
+
+  form .row1 .fname {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  form .row1 .lname {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  form .row1 .email {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  form .row1 .date {
+    display: flex;
+    flex-direction: column;
+
+
+
+  }
+
+  form .row2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 340px;
+  }
+
+
+  form .row2 .password {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  form .row2 .confirmpassword {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  form .row2 .phonenumber {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  form .row2 .gender select {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+
+  }
+
+  label {
+    font-size: larger;
+    margin-bottom: 8px;
+    color: #000000;
+  }
+
+  input {
+    font-style: inherit;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+
+  .cs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  button {
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 10px;
+    /* padding: 5px; */
+    border-color: #000000;
+  }
+
+  button:hover {
+    background-color: #af724c;
+
+  }
+
+
+  .cs .confirmbttn button {
+    display: flex;
+    justify-content: center;
+    border-color: #000000;
+    background-color: grey;
+  }
+
+  .regform {
+    display: flex;
+    flex-direction: column;
+    opacity: 50;
+    height: 450px;
+    gap: 20px;
+  }
+
+  .cs button {
+    display: flex;
+  }
+
+  .mainbox .below .signin {
+    display: flex;
+    position: relative;
+    gap: 5px;
+    top: 15px;
+  }
+
+  .leftright {
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .Signin button {
+    display: flex;
+    position: relative;
+    gap: 10px;
+    box-shadow: none;
+    font-size: 100%;
+    border-color: none;
+  }
+
+  .confirmbttn {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 15%;
+    align-items: center;
+
+
+  }
+
+  .confirmbttn button {
+    height: 50%;
+    width: 25%;
+    font-size: 100%;
+  }
+
+  .signin {
+    display: flex;
+    width: 55%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .Signin-bttn {
+    font-size: 80%;
+  }
+
+  .login-link-bttn {
+    text-decoration: none;
+    color: black;
+  }

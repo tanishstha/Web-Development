@@ -1,0 +1,130 @@
+.bttnforaddcart{
+ display: flex;
+ position: relative;
+ left: 35%;
+}
+
+
+.mainbodyofbuyproduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  background-color: #9F8170;
+}
+
+.outerlayer {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 70%;
+  background-color: white;
+  border: solid black;
+}
+
+.rightside {
+  height: 55vh;
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+}
+
+.totalpricebox{
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  height: 25vh;
+  width: 60%;
+  z-index: 1;
+  position: relative;
+  left: 40%;
+}
+
+.addtocartinbuypage{
+    display: flex;
+}
+
+.headeroftheshoe {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.shoediscription {
+  height: 20vh;
+}
+.sizeoftheshoe{
+}
+
+.priceandsize{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.buttnforsize {
+    position: absolute;
+
+  padding: 8px;
+  width: 10%;
+  cursor: pointer;
+}
+
+.listofsize{
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    position: relative;
+    left: 80%;
+    top: 4%;
+    margin: 0;
+    width: 20%;
+    align-items: center;
+}
+
+.listnumber{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+    position: relative;
+    right: 150%;
+}
+.listofsize li {
+  color: rgb(255, 253, 253);
+  padding: 5px 1px;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+    margin: 0;
+}
+
+.classnameofsize li:hover {
+}
+
+.condfirmorderinbuyproduct{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.inputforprice{
+  height: 1vh;
+  width: 50%;
+  position: relative;
+  bottom: 6%;
+  left: 35%;
+}
+.labelforprice{
+  height: 2vh;
+  width: 40%;
+}
+
+.calculateprice{
+  display: flex;
+  flex-direction: column;
+}

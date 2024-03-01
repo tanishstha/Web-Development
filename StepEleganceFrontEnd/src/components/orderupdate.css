@@ -1,0 +1,27 @@
+
+.headerforupdate{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.labelforupdate {
+    margin-bottom: 5px;
+}
+
+.inputforlabel {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+.buttonforupdate {
+    background-color: #1890ff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonforupdate:hover {
+    background-color: #40a9ff;
+}

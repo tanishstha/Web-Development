@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.top {
+    display: flex;
+    background: #9F8170;
+    width: 100%;
+}
+
+.logo-container {}
+
+.navsection {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.section-container ul {
+    display: flex;
+    position: relative;
+}
+
+.section-container ul li {
+    display: flex;
+    position: relative;
+    list-style: none;
+    padding: 20px;
+}
+
+.section-container li a {
+    position: relative;
+    display: flex;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.section-container li a:hover {
+    box-shadow: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    background-color: none;
+
+}
+
+
+.inputbtt {
+    display: flex;
+    width: 150%;
+    justify-content: center;
+}
+
+.inputbtt form {
+    display: flex;
+    align-items: center;
+}
+
+.inputbtt .fa-search {
+    position: relative;
+    right: 1%;
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 0;
+}
+
+.searchinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+label {
+    margin-bottom: 0;
+}
+
+.search-bttn {
+    position: relative;
+    right: 10%;
+}
+
+.search-bttn i:hover {
+    cursor: pointer;
+}
+
+.menubox {
+    display: flex;
+
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.whishlist-button{
+    position: relative;
+    right: 10%;
+}
+
+.whishlist-button a{
+    color: black;
+}
+
+
+
+
+.menubox ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.bars li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    font-size: 20px;
+    border-top: 1px solid transparent;
+    border-bottom: #333;
+    height: 30px;
+    width: 100%;
+}
+
+
+.menubox .profile {
+    display: flex;
+}
+
+.menubox button {
+    width: 50px;
+    border: none;
+    font: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: boarder-color 0.25s;
+    background: none;
+
+}
+
+
+.slide {
+    height: 100vh;
+}
+
+.wishlist {
+    display: flex;
+}
+
+.wishlist .fa-heart {
+    font-size: 250%;
+}
+
+.shoppingbag {
+    display: flex;
+}
+
+.fa-solid {
+    font-size: 250%;
+}
+
+.bodysec {
+    height: 100vh;
+}
+
+.slidesbody {
+    display: flex;
+}
+
+/* Dropdown Button */
+.profilebttn {
+    position: relative;
+    display: flex;
+}
+
+.profilebttn button {
+    background-color:none;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown Content */
+.bars {
+    display: none;
+    position: absolute;
+    background-color: #9F8170;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%;
+    left: -90%;
+}
+
+.bars ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bars li {
+    padding: 18px;
+}
+
+.bars li:hover {
+    box-shadow: 0 0 10px 3px #222;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+    padding: 0;
+}
+.bars a {
+    color: #fff;
+    font-weight: 100;
+    display: flex;
+    text-decoration: none;
+    gap: 25px;
+}
+
+.bars a:hover {
+    background-color: #9F8170;
+}
+
+/* Show the dropdown menu on hover */
+.profilebttn:hover .bars {
+    display: block;
+}

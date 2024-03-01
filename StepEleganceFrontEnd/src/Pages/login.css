@@ -1,0 +1,121 @@
+.login-box {
+    display: flex;
+}
+
+.rectangle {
+    position: relative;
+    background-color: #B08553;
+    height: 100vh;
+    width: 25%;
+    left: 250px;
+
+}
+
+.main-login-box {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    top: 100px;
+    right: 100px;
+    justify-content: center;
+    box-shadow: 8px 8px 8px rgba(13, 13, 13);
+    border: 1px solid;
+}
+
+.welcome-part {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 40%;
+    background: #B08553;
+    border: 1px solid;
+    gap: 50px;
+}
+
+.welcome-part .title-heading-welcome {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 250%;
+    color: white;
+    margin: 0;
+}
+
+.login-form-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 60%;
+
+}
+
+.login-info {
+    height: 100%;
+    width: 60%;
+
+}
+
+.SE-logo {
+    width: 30%;
+    position: relative ;
+    left: 30%;
+
+}
+
+.login-form-info {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.user-pass {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+    top:40%;
+    right: 20%;
+    align-items: center;
+
+}
+
+.user-detail {
+    width: 70%;
+}
+.login-bttn{
+    font-size: 100%;
+}
+
+.forgetbttn {
+    text-decoration: none;
+    font-size: 100%;
+    color: #2256DC ;
+}
+.login-shoe-img {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    left: 15%;
+    position: relative;
+}
+
+.signin-bttn{
+    font-size: 75%;
+}
+
+
+.signin-bttn a{
+    text-decoration: none;
+    color: black;
+}

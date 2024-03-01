@@ -1,0 +1,55 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.adduserheader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.downtablediv{
+    width: 50%;
+}
+.formforadduser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.labellabel{
+    width: 50%;
+}
+.labelbox {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    
+    
+}
+
+.adduserbttn {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 5vh;
+    position: relative;
+    left: 90%;
+}
+
+.adduserbttn:hover {
+   
+}

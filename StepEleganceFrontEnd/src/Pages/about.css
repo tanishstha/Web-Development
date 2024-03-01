@@ -1,0 +1,74 @@
+
+.about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+}
+.about h2{
+    display: flex;
+    margin-top: 1%;
+    justify-content: center;
+    height: 100%;
+    font-size: 500%;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description p{
+    text-align: center;
+    font-size: 150%;
+    position: relative;
+    padding: 10px;
+}
+
+.ourservices{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.ourservices h2{
+    margin-top: 30px;
+}
+
+.gridbox{
+    display: flex;
+}
+.truckimg{
+    display: flex;
+    flex-direction: column;
+}
+.truckimg .fa-solid .fa-truck-fast{
+    font-size: 30px;
+}
+
+.deliveryinfo{
+    display: inline;
+}
+
+.d2d{
+    display: flex;
+    width: 35%;
+}
+.import{
+    display: flex;
+    width: 35%;
+}
+
+.box1 .description{
+    width: 50%;
+}
+
+.box1 .img{
+    width: 4%;
+}

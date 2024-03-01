@@ -1,0 +1,16 @@
+
+.ourproducts{
+    font-weight: 200;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10;
+    color: saddlebrown;
+}
+.productdisplay{
+    height: 100vh;
+}
+
+
+

@@ -1,0 +1,119 @@
+.topadmin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 
+    100%;
+}
+
+.MainDash{
+    display: flex;
+    height: 100%;
+    position: relative;
+    font-size: 80%;
+    width: 7%;
+    left: 30%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.MainDash a{
+    width: 100%;
+    text-decoration: none;
+    height: 100%;
+}
+.headadmin{
+    display: flex;
+    justify-content: center;
+    font-size: 250%;
+    padding-top: 1px;
+}
+.adminbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.buttonsleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 20%;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.product-bttn{
+    font-size: 100%;
+    height: 10vh;
+    width: 100%;
+}
+
+.adminform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 70vh;
+    width: 70%;
+    background-color: gray;
+    border: 1px solid black;
+
+}
+
+.addproducts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+
+}
+
+.addimg-product {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    align-items: center;
+}
+
+.detail-product-add {
+    display: flex;
+    width: 40%;
+    height: 4vh;
+    justify-content: space-evenly;
+}
+
+.img-product-add {
+    width: 50%;
+    height: 20vh;
+}
+
+.description-product-add {
+    width: 50%;
+    height: 10vh;
+
+}
+
+.add-bttn-submit {
+    position: relative;
+    font-size: 100%;
+    width: 30%;
+    height: 5vh;
+    top: 20%;
+    right: 50%;
+}
+
+.add-bttn-submit:hover{
+    background-color: pink;
+}

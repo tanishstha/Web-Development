@@ -1,0 +1,53 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.add-product-header{
+    height: 10%;
+    margin: 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insideformofaddproduct{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    padding-top: 5%;
+    
+}
+.productlabel {
+    width: 10%;
+}
+
+.inputforproduct {
+    width: 20%;
+    height: 10%;
+}
+
+.bttnaddproduct {
+    background-color: #1890ff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-size: 100%;
+    font-weight: 400;
+    border-radius: 4px;
+    height: 10%;
+    position: relative;
+    left: 30%;
+    width: 20%;
+}
+
+.bttnaddproduct:hover {
+}
+
+#img-box-size{
+    height: 50%;
+}
